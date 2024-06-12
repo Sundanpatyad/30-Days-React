@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:20px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.heading{
+   text-align: center;
+}
