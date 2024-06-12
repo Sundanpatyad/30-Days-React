@@ -1,14 +1,14 @@
 import React from 'react'
 import "./MobileList.css"
 const MobileList = (props) => {
-
+const {image , price , title }= props;
 
 
   return (
     <div className='main'>
-        <img src={props.image} alt="" />
-        <h2>{props.title}</h2>
-        <p>{props.price}</p>
+        <img src={image} alt="" />
+        <h2>{title}</h2>
+        <p>{price}</p>
         <button>Add to Cart</button>
     </div>
   )
