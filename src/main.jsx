@@ -6,10 +6,13 @@ import Form from './Form'
 import UseEffect from './UseEffect'
 import UseReducer from './UseReducer'
 import UseRedducrFetchApi from './UseRedducrFetchApi'
+import "./index.css";
+import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UseRedducrFetchApi/>
+    <App/>
+    {/* <UseRedducrFetchApi/> */}
     {/* <UseReducer/> */}
     {/* <UseEffect/>
     <Form/>
